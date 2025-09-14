@@ -27,6 +27,6 @@ uv run main.py
 ```
 ## 未来规划
 
-1. （Web版）计划结合FastAPI开发完全自动抢课*
+1. （Web版）计划结合FastAPI开发完全自动抢课
 2. （本地版）pyUI实现快速抢课
 3. （移动版）计划结合Flutter开发移动应用
