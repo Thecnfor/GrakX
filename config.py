@@ -1,12 +1,13 @@
 """
 配置文件
 """
+from api import CookieProxy
 
 BASE_URL = 'http://jwxt.gdufe.edu.cn/jsxsd/'
 
 USERNAME = None
 PASSWORD = None
-COOKIES = None
+COOKIES = CookieProxy()
 
 
 def set_user_credentials(username=None, password=None, cookies=None):
@@ -27,3 +28,4 @@ def set_user_credentials(username=None, password=None, cookies=None):
 
     if cookies is not None:
         COOKIES = cookies
+

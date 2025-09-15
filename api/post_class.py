@@ -2,6 +2,7 @@ import requests
 from session.session import generate_headers
 import config
 
+
 def post_class(course_id):
     """
     提交选课请求

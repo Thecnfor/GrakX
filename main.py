@@ -6,11 +6,11 @@ import time
 from config import set_user_credentials
 from session import auto_login, check_login_status
 from get_class import get_and_filter_all_courses
-from post_class import post_class
+from api import post_class
 
 
 def main():
-    """
+    """TODO: 每个函数增加用户识别参数
     主函数，用于调用自动登录功能并获取选课轮次信息、课程数据。
     """
     # 设置用户凭证信息
